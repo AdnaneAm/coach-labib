@@ -9,7 +9,7 @@ const About = () => {
         data-aos='fade-right'
         data-aos-delay='500'
       >
-        <Image
+        <img
           src='/about.png'
           alt='about image'
           width={460}

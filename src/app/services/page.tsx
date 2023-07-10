@@ -43,7 +43,7 @@ const Services = () => {
                   data-aos='fade-right'
                   data-aos-delay='400'
                 >
-                  <Image
+                  <img
                     src={service.imageUrl}
                     alt={service.title}
                     width={250}

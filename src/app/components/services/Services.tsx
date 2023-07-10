@@ -24,7 +24,7 @@ const Services = () => {
               data-aos-delay={500}
             >
               <div className='top'>
-                <Image
+                <img
                   src={service.imageUrl}
                   alt='ilustration service'
                   width={240}
@@ -49,14 +49,14 @@ const Services = () => {
           )
         })}
       </div>
-      <Image
+      <img
         src='/bgservice.png'
         alt='background service'
         width={1100}
         height={980}
         className='image1 absolute top-0 -z-10 right-[-32px] '
       />
-      <Image
+      <img
         src='/bgserv.png'
         alt='background service'
         width={760}

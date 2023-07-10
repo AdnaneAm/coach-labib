@@ -40,7 +40,7 @@ const Testimonials = () => {
               onClick={() => setIndex(idx)}
             >
               <div className='top mb-4'>
-                <Image
+                <img
                   src={testimonial.imageUrl}
                   alt='testimonial profile'
                   width={50}

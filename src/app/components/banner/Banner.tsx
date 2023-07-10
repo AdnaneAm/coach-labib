@@ -22,7 +22,7 @@ const Banner = () => {
         </button>
       </div>
       <div className='image flex-1' data-aos='fade-left' data-aos-delay='400'>
-        <Image src='/banner.png' alt='image banner' width={680} height={620} />
+        <img src='/banner.png' alt='image banner' width={680} height={620} />
       </div>
     </div>
   )

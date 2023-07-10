@@ -87,7 +87,7 @@ const Reservation = () => {
             </div>
           </div>
         </div>
-        <Image
+        <img
           src='/bgreserv.png'
           alt='background reservation'
           width={1500}

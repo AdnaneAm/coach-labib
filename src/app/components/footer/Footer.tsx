@@ -16,7 +16,7 @@ const Footer = () => {
   return (
     <div className='bg-[#FBDBCB] p-8 flex gap-8 footer'>
       <div className='left flex-1'>
-        <Image
+        <img
           src='/logo.png'
           alt='coach labib logo'
           width={250}

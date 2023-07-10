@@ -40,7 +40,7 @@ const Services = () => {
                   data-aos-delay='400'
                 >
                   <div className='top mb-4'>
-                    <Image
+                    <img
                       src={article.imageUrl}
                       alt={article.articleName}
                       width={580}

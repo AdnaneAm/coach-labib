@@ -26,7 +26,7 @@ const Navbar = () => {
   return (
     <div className='navbar px-10 py-5 flex items-center justify-between'>
       <div className='logo'>
-        <Image src='/logo.png' alt='coach labib logo' width={250} height={50} />
+        <img src='/logo.png' alt='coach labib logo' width={250} height={50} />
       </div>
       <div className='links'>
         <nav className={isVisible ? 'isVisible' : 'overflow-hidden'}>
