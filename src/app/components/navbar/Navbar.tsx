@@ -25,9 +25,9 @@ const Navbar = () => {
 
   return (
     <div className='navbar px-10 py-5 flex items-center justify-between'>
-      <div className='logo'>
-        <img src='/logo.png' alt='coach labib logo' width={250} height={50} />
-      </div>
+      <Link className='logo' href='/'>
+        <Image src='/logo.png' alt='coach labib logo' width={250} height={50} />
+      </Link>
       <div className='links'>
         <nav className={isVisible ? 'isVisible' : 'overflow-hidden'}>
           <ul className='flex items-center gap-8'>
@@ -36,16 +36,20 @@ const Navbar = () => {
                 <Link
                   href={item.to}
                   key={index}
-                  className='text-link text-brown'
+                  className='link-nav text-link text-[#83584f]'
                   onClick={() => setIsVisible(false)}
+                  scroll={false}
                 >
                   {item.link}
                 </Link>
               )
             })}
-            <button className='bg-rose px-6 py-2 rounded-full text-link text-white font-semibold '>
+            <a
+              className=' btn bg-rose px-6 py-2 rounded-full text-link text-white font-semibold'
+              href='/#reservation'
+            >
               Réservation
-            </button>
+            </a>
           </ul>
         </nav>
       </div>
