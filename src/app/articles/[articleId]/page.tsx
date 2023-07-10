@@ -39,7 +39,7 @@ export default function ArticleDetail({
               </div>
             </div>
             <div className='image-art mb-4'>
-              <Image
+              <img
                 src={article.imageUrl}
                 alt={article.articleName}
                 width={580}
